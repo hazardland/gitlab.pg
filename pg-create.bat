@@ -1,5 +1,5 @@
-set image=adjarabet/pg-build
-set tag=0.0.8
+set image=adjarabet/pg-create
+set tag=0.0.1
 docker build -t %image%:%tag% -t %image%:latest -f pg-build.Dockerfile .
 docker push %image%:%tag%
 docker push %image%:latest
